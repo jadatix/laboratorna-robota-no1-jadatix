@@ -3,6 +3,7 @@ import Title from "./Title"
 import Pages from "./Pages"
 import Main from "./Main"
 import List from "./List"
+import Form from "./Form"
 import {
     BrowserRouter as Router,
     Routes,
@@ -27,7 +28,8 @@ const App = () => {
                     <Pages nums={["Сюди", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Туди"]}/>
                 </>
                 }/>
-                <Route path="/test" element={<List d={arr}/>}/>
+                <Route path="/test" element={<List d={arr} />} />
+                <Route path="/form" element={ <Form/>}/>
             </Routes>
         </Router>
     </>    

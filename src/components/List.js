@@ -5,7 +5,7 @@ const ListItem = (props) => {
     
     return <>
         <div className="element-box">
-            <p><b>{props.data.data}</b></p>
+            <p><b>{props.data.date}</b></p>
             <p><b>Особовий склад</b>: {props.data.troops}</p>
             <p><b>Танків</b>: {props.data.tanks}</p>
             <p><b>Артилерій</b>: {props.data.art}</p>

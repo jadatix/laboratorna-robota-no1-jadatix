@@ -4,7 +4,9 @@ import "../list.css"
 
 
 const FeedbackItem = (props) => {
-    
+    return <div className="element-box">
+        
+    </div>
 }
 
 
