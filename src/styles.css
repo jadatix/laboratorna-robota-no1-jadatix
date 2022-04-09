@@ -4,144 +4,146 @@ body{
 .nav-bar {
             display: flex;
             height: 70px;
-            width: 60%;
+            /* width: 60%;   calulated in Menu.js */
             margin: 0 auto;
             border: 15px solid #241B20;
             border-radius: 10px;
         }
 
-        .element {
-            background-image: linear-gradient(#F7B604, #EB6703);
-            border: 1px solid #E89A02;
-            width: 17%;
-            display: flex;
-            text-align: center;
-            align-items: center;
-        }
+.element {
+    background-image: linear-gradient(#F7B604, #EB6703);
+    border: 1px solid #E89A02;
+    width: 17%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+}
 
-        .element>p {
-            margin: 0 auto;
-            color: #FFFFFF;
-            font-size: 20pt;
-            font-weight: bold;
-        }
+.element>p {
+    margin: 0 auto;
+    color: #FFFFFF;
+    font-size: 20pt;
+    font-weight: bold;
+}
 
-        .form-div {
-            width: 60%;
-            margin: 0 auto;
-            padding: 50px;
-            display: flex;
-        }
+.form-div {
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+}
 
-        .search>img {
-            width: 30px;
-            height: 30px;
-            /* margin-top: 10px; */
-        }
+.search>img {
+    width: 30px;
+    height: 30px;
+    /* margin-top: 10px; */
+}
 
-        .search {
-            height: 40px;
-            width: 300px;
-            display: flex;
-            align-items: center;
-            margin-bottom: 40px;
-        }
+.search {
+    height: 40px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
 
-        .search>input {
-            height: 30px;
-            background-color: #DCCCBC;
-            width: 270px;
-        }
+.search>input {
+    height: 30px;
+    background-color: #DCCCBC;
+    width: 270px;
+}
 
-        .smth {
-            width: 260px;
-            background-color: #241B20;
-            border: 20px solid #241B20;
-            height: 160px;
-            border-radius: 10px;
-        }
+.smth {
+    width: 260px;
+    background-color: #241B20;
+    border: 20px solid #241B20;
+    height: 160px;
+    border-radius: 10px;
+}
 
-        .row {
-            margin-bottom: 20px;
-            height: 40px;
-            width: 100%;
-            display: flex;
-            align-items: center;
-        }
+.row {
+    margin-bottom: 20px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
 
-        .row>div {
-            background-image: linear-gradient(#25A8AA, #175965);
-            color: #E2BC42;
-            display: flex;
-            align-items: center;
-            width: 20%;
-            border-radius: 5px 0 0 5px;
-            height: 40px;
-            margin-right: 1px;
-        }
+.row>div {
+    background-image: linear-gradient(#25A8AA, #175965);
+    color: #E2BC42;
+    display: flex;
+    align-items: center;
+    width: 20%;
+    border-radius: 5px 0 0 5px;
+    height: 40px;
+    margin-right: 1px;
+}
 
-        .row>div>p {
-            margin: 0 auto;
-            font-weight: bold;
-        }
+.row>div>p {
+    margin: 0 auto;
+    font-weight: bold;
+}
 
-        .row>input {
-            width: 80%;
-            background-color: #DCCCBC;
-            border-radius: 0 5px 5px 0;
-            height: 36px;
-        }
+.row>input {
+    width: 80%;
+    background-color: #DCCCBC;
+    border-radius: 0 5px 5px 0;
+    height: 36px;
+    margin-top: 14px;
+}
 
-        .btn {
-            background-image: linear-gradient(#F7B604, #EB6703);
-            height: 40px;
-            width: 100%;
-            display: flex;
-            align-items: center;
-            border-radius: 5px;
-        }
+.btn {
+    background-image: linear-gradient(#F7B604, #EB6703);
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
 
-        .btn>p {
-            margin: 0 auto;
-            color: #FFFFFF;
-            font-weight: bold;
-        }
+.btn>p {
+    margin: 0 auto;
+    color: #FFFFFF;
+    font-weight: bold;
+}
 
-        .second-col {
-            margin-left: 300px;
-        }
+.second-col {
+    margin-left: 300px;
+}
 
-        .second-col>select {
-            width: 300px;
-            height: 30px;
-            background-image: linear-gradient(#626262, #372A31);
-            border-radius: 5px;
-        }
+.second-col>select {
+    width: 300px;
+    height: 30px;
+    background-image: linear-gradient(#626262, #372A31);
+    border-radius: 5px;
+}
 
-        .pages {
-            height: 50px;
-            border: 10px solid #241B20;
-            border-radius: 10px;
-            display: flex;
-            margin: 0 auto;
-        }
+.pages {
+    height: 50px;
+    border: 10px solid #241B20;
+    border-radius: 10px;
+    display: flex;
+    margin: 0 auto;
+}
 
-        .page-el {
-            background-image: linear-gradient(#F7B604, #EB6703);
-            width: 2%;
-            border: 2px solid #241B20;
-            border-radius: 5px;
-            display: flex;
-            align-items: center;
-            width: 50px;
-        }
+.page-el {
+    background-image: linear-gradient(#F7B604, #EB6703);
+    width: 2%;
+    border: 2px solid #241B20;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    width: 50px;
+}
 
-        .page-el>p {
-            margin: 0 0;
-            color: #FFFFFF;
-            font-weight: bold;
-            margin: 0 auto;
-        }
+.page-el>p {
+    margin: 0 0;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin: 0 auto;
+}
 .title{
     background-color: #372A31;width: 1500px; padding: 50px; margin: 0 auto;
 }
@@ -153,10 +155,11 @@ body{
 }
 
 .element:hover {
-            background-image: linear-gradient(#9af704, #67b81c);
-            border: 1px solid #7fdc0c;
-            width: 17%;
-            display: flex;
-            text-align: center;
-            align-items: center;
-        }
+    cursor: pointer;
+    background-image: linear-gradient(#e3f704, #b8a11c);
+    border: 1px solid #7fdc0c;
+    width: 17%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
