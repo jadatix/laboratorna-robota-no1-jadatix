@@ -1,4 +1,5 @@
-import  { useState } from 'react';
+import React from "react"
+import { useState } from 'react';
 import "../styles.css";
 
 
@@ -18,7 +19,7 @@ const Main = () => {
             <div className="first-col">
                 <div className="search">
                     <input type="text" placeholder="Пошук" />
-                    <img src="http://cdn.onlinewebfonts.com/svg/img_372581.svg" />
+                    <img src="http://cdn.onlinewebfonts.com/svg/img_372581.svg" alt="?"/>
                 </div>
                 <div className="smth">
                     <div className="row">
