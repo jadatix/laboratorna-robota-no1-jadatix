@@ -14,7 +14,7 @@ import { useState, useEffect } from 'react'
 
 
 const App = () => {
-    var menu = [{ text: "Втрати окупантів", link: "/test" },
+    const menu = [{ text: "Втрати окупантів", link: "/test" },
                 { text: "Форма", link: "/form"}]
     const [arr, setArr] = useState([])
     useEffect(() => fetch("/data.json").then(response => response.json())

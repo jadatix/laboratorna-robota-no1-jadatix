@@ -12,14 +12,20 @@ const Form = () => {
     const [art, setArt] = useState()
     const [other, setOther] = useState("none")
 
-    const HandleSubmit = (e) => {
+    const HandleSubmit = () => {
         const data = { date, troops, tanks, art, other }
-
+        try {
+            const fs = require('fs').promises;
+            fs.appendFile("/data.json", data);
+        } catch (error) {
+            console.log(error);
+        }
+        
     }
 
     return <>
         <div className='form-box'>
-            <form method='POST'>
+            <form>
                 <label>Дата</label>
                 <input type='date' value={date} required onChange={e => setDate(e.target.value)} ></input>
                 <label>Особового складу</label>
@@ -30,7 +36,7 @@ const Form = () => {
                 <input type='number' value={art} required onChange={e => setArt(e.target.value)}></input>
                 <label>Посилання</label>
                 <input value={other} onChange={e => setOther(e.target.value)}></input>
-                <button type='submit' >Надіслати</button>
+                <button type='submit'onClick={HandleSubmit()} >Надіслати</button>
             </form>
         </div>
     </>
