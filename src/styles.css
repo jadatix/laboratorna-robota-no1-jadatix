@@ -168,23 +168,24 @@ body{
     
 .nav-bar {
         display: block;
+        border: 0px;
         /* height: 70px; */
         /* width: 60%;   calulated in Menu.js */
         margin: 0 auto;
-        border: 15px solid #241B20;
-        border-radius: 10px;
         height: auto;
     }
 
 .element {
-    width: 100%;
     background-image: linear-gradient(#F7B604, #EB6703);
-    border: 1px solid #E89A02;
+    border: 15px solid #241B20;
+    border-radius: 25px;
     display: flex;
     text-align: center;
     height: 60px;
     align-items: center;
     text-decoration: none;
+    margin: 5px auto;
+
 }
 
 .form-div {
@@ -212,9 +213,10 @@ body{
 
 }
 
-@media only screen and (min-device-width : 1575px)  and (max-device-width : 4000px){
+@media only screen and (min-device-width : 1575px) {
 
 .pages{
     width: 629.6px;
+    visibility: hidden;
 }
 }
