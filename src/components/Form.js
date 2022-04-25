@@ -14,13 +14,7 @@ const Form = () => {
 
     const HandleSubmit = () => {
         const data = { date, troops, tanks, art, other }
-        try {
-            const fs = require('fs').promises;
-            fs.appendFile("/data.json", data);
-        } catch (error) {
-            console.log(error);
-        }
-        
+        console.log("submit: ",data);
     }
 
     return <>
@@ -36,7 +30,7 @@ const Form = () => {
                 <input type='number' value={art} required onChange={e => setArt(e.target.value)}></input>
                 <label>Посилання</label>
                 <input value={other} onChange={e => setOther(e.target.value)}></input>
-                <button type='submit'onClick={HandleSubmit()} >Надіслати</button>
+                <button type='button' onClick={ HandleSubmit } >Надіслати</button>
             </form>
         </div>
     </>
