@@ -145,7 +145,7 @@ body{
     margin: 0 auto;
 }
 .title{
-    background-color: #372A31;width: 1500px; padding: 50px; margin: 0 auto;
+    background-color: #372A31;width: 70%; padding: 50px; margin: 0 auto;
 }
 .title >h1{
     color: #FFFFFF; text-align:center;
