@@ -8,9 +8,7 @@ const Menu = ({title}) => {
                 {
                     title.map((el, idx) => 
                         <Link to={el.link} className="element" key={idx} style={{ width: `calc(100%/${title.length})` }} >
-                            {/* <div className="element" key={idx} style={{ width: `calc(100%/${title.length})` }}> */}
                                 <p>{el.text}</p>
-                            {/* </div> */} {/*idc bad calc with div inside <Link>... */}
                         </Link>
                     )
                 }

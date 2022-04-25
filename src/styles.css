@@ -163,3 +163,48 @@ body{
     text-align: center;
     align-items: center;
 }
+
+@media only screen and (max-device-width : 1254px) {
+    
+.nav-bar {
+        display: block;
+        /* height: 70px; */
+        /* width: 60%;   calulated in Menu.js */
+        margin: 0 auto;
+        border: 15px solid #241B20;
+        border-radius: 10px;
+    }
+
+.element {
+    width: 100%;
+    background-image: linear-gradient(#F7B604, #EB6703);
+    border: 1px solid #E89A02;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.form-div {
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px;
+    display: block;
+}
+.first-col{
+    margin: 0 auto;
+
+}
+
+.search {
+    margin: 0 auto 40px auto;
+    }
+.smth {
+    margin: 0 auto 40px auto;
+        }
+.second-col{
+    margin: 0 auto;
+    width: 300px;
+}
+
+}
